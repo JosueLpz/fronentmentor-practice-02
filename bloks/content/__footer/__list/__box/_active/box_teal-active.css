@@ -1,0 +1,5 @@
+.box_teal-active {
+  background-color: hsl(166 100% 37%/ 0.2);
+  box-shadow: 5px 5px 10px hsl(166 100% 37%/ 0.5);
+  color: hsl(166 100% 37%);
+}

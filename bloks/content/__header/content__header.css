@@ -1,0 +1,7 @@
+.content__header {
+  border-top: solid hsl(252, 100%, 67%);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 30px;
+}

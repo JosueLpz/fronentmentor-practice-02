@@ -1,0 +1,5 @@
+.box_yellow-active {
+  background-color: hsl(39 100% 56% / 0.2);
+  box-shadow: 5px 5px 10px hsl(39 100% 56% / 0.5);
+  color: hsl(39 100% 56%);
+}

@@ -1,2 +1,29 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/founts.css);
 /* root */
 @import url(../bloks/root/root.css);
+/* content */
+/* header */
+@import url(../bloks/content/content.css);
+@import url(../bloks/content/__header/content__header.css);
+@import url(../bloks/content/__header/__title/header__title.css);
+@import url(../bloks/content/__header/__container/header__container.css);
+@import url(../bloks/content/__header/__container/__number/header__number.css);
+@import url(../bloks/content/__header/__container/__rank/header__rank.css);
+@import url(../bloks/content/__header/__info/header__info.css);
+@import url(../bloks/content/__header/__info/__check/header__check.css);
+@import url(../bloks/content/__header/__info/__text/header__text.css);
+/* footer */
+@import url(../bloks/content/__footer/content__footer.css);
+@import url(../bloks/content/__footer/__title/footer__title.css);
+@import url(../bloks/content/__footer/__list/footer__list.css);
+@import url(../bloks/content/__footer/__list/__box/list__box.css);
+@import url(../bloks/content/__footer/__list/__box/__title/list__title.css);
+@import url(../bloks/content/__footer/__list/__box/__img/list__img.css);
+@import url(../bloks/content/__footer/__list/__box/__number/list__number.css);
+@import url(../bloks/content/__footer/__list/__box/__number/__span/list__span.css);
+@import url(../bloks/content/__footer/__list/__box/__number/__space/list__span_space.css);
+@import url(../bloks/content/__footer/__list/__box/_active/box_yellow-active.css);
+@import url(../bloks/content/__footer/__list/__box/_active/box_teal-active.css);
+@import url(../bloks/content/__footer/__list/__box/_active/box_blue-active.css);

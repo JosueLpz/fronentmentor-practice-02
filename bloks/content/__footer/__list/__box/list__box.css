@@ -1,0 +1,15 @@
+.list__box {
+  margin: 5px auto 15px auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(0 100% 67%/ 0.2);
+  box-shadow: 5px 5px 10px hsl(0 100% 67%/ 0.5);
+  color: hsl(0 100% 67%);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}

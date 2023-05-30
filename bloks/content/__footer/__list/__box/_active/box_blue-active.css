@@ -1,0 +1,5 @@
+.box_blue-active {
+  background-color: hsl(234 85% 45% / 0.2);
+  box-shadow: 5px 5px 10px hsl(234 85% 45% / 0.5);
+  color: hsl(234 85% 45%);
+}

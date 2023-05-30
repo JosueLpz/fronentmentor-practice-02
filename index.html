@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Results summary component</title>
-</head>
-<body class="root">
-  <section class="content">
-    <article class="content__header"></article>
-    <article class="content__footer"></article>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="root">
+    <section class="content">
+      <article class="content__header">
+        <h1 class="header__title">Your Result</h1>
+        <div class="header__container">
+          <h2 class="header__number">76</h2>
+          <p class="header__rank">of 100</p>
+        </div>
+        <div class="header__info">
+          <h3 class="header__check">Great</h3>
+          <p class="header__text">You scored higher than 65% of the people who have take these test.</p>
+        </div>
+      </article>
+      <article class="content__footer">
+        <h1 class="footer__title">Summary</h1>
+        <lo class="footer__list">
+          <li class="list__box">
+            <h2 class="list__title"><img class="list__img" src="./assets/images/icon-reaction.svg" alt="icono reaction" />Reaction</h2>
+            <p class="list__number">80<span class="list__span_space">/</span><span class="list__span">100</span></p>
+          </li>
+          <li class="list__box box_yellow-active">
+            <h2 class="list__title"><img class="list__img" src="./assets/images/icon-memory.svg" alt="icono memory" />Memory</h2>
+            <p class="list__number">92<span class="list__span_space">/</span><span class="list__span">100</span></p>
+          </li>
+          <li class="list__box box_teal-active">
+            <h2 class="list__title">Velbal<img class="list__img" src="./assets/images/icon-verbal.svg" alt="icono verbal" /></h2>
+            <p class="list__number">61<span class="list__span_space">/</span><span class="list__span">100</span></p>
+          </li>
+          <li class="list__box box_blue-active">
+            <h2 class="list__title"><img class="list__img" src="./assets/images/icon-visual.svg" alt="icono visual" />Visual</h2>
+            <p class="list__number">72<span class="list__span_space">/</span><span class="list__span">100</span></p>
+          </li>
+        </lo>
+      </article>
+    </section>
+  </body>
 </html>

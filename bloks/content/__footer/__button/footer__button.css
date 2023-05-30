@@ -1,0 +1,19 @@
+.footer__button {
+  margin: 30px auto 0 auto;
+  width: 350px;
+  height: 55px;
+  display: block;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+  -moz-transition: 1s linear;
+  -ms-transition: 1s linear;
+  -o-transition: 1s linear;
+}

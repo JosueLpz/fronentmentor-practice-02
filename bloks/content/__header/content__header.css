@@ -1,4 +1,6 @@
 .content__header {
+  margin: 0 auto;
+  max-width: 380px;
   border-top: solid hsl(252, 100%, 67%);
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-bottom-left-radius: 20px;
